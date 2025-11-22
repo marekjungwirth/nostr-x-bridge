@@ -1,0 +1,12 @@
+# Tajná hesla (NIKDY NEPOSÍLAT NA GITHUB)
+.env
+
+# Závislosti Node.js (stáhnou se samy)
+node_modules/
+
+# Dočasné soubory
+temp_images/
+bridge.log
+
+# Systémové soubory Macu
+.DS_Store

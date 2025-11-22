@@ -1,0 +1,9 @@
+services:
+  x-nostr-bridge:
+    build: .
+    container_name: x-nostr-bridge
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./temp_images:/app/temp_images
